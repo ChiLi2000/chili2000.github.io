@@ -35,7 +35,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://chili2000.github.io/posts/" />
-<meta property="og:updated_time" content="2020-06-22T20:17:19+08:00" />
+<meta property="og:updated_time" content="2020-06-22T22:06:03+08:00" />
 <meta itemprop="name" content="Posts">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
@@ -101,12 +101,44 @@
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
+      <a href="https://chili2000.github.io/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8githubpages%E9%A2%84%E8%A7%88html/" class="link black dim">
+        如何使用GitHubPages预览HTML
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      如何使用GitHub Pages预览 HTML 在使用Hugo搭建博客的基础上进行以下操作：   创建GitHub rope 仓库名为xxx. github. io 其它别动直接创建 注意xxx是GitHub的用户名
+  创建本地仓库 新建 . gitignore文件内容为
+/public/
+切换到public目录
+git init
+git add .
+git commit -v 第一次部署
+  关联远程仓库
+git remote add origin ………（注意git@开头）
+git push -u origin master
+  打开Github pages
+  
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
       <a href="https://chili2000.github.io/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="link black dim">
         如何用hugo搭建个人博客
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      如何用hugo搭建个人博客 安装Hugo  去huge 下载Hugo-xxx-windows-64.bit.zip 解压 将安装包解压到d:\software\hugo\ 设置环境变量 将d:\software\hugo加入path 重启vscode终端 运行 Hugo version 命令查看版本并且验证安装是否成功  搭建博客  创建一个空文件夹study 进入目录 cd study 进入huge 复制step2~7的代码 如下解释：   step2: Hugo new site xxx. github. io-creator 建立新网站创建博客生成器 注意xxx是在GitHub的用户名并且是小写 step3: cd xxx. github. io-creator git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &lsquo;theme = &ldquo;ananke&rdquo;&rsquo; &raquo; config.toml 添加主题配置  step4: hugo new post/my-first-post.md 创建并进行博客内容编写 （直接在已有的内容上往下编写 draft属性可改成false 即所以人可见 默认ture为仅自己可见） step5: hugo server -D 启动Hugo服务器 访问出现的网址http://localhost:1313/即导航到博客站点。 step6: 自定义主题进行网站配置 在vscode中ctrl+p搜索 config.
+      如何用hugo搭建个人博客 安装Hugo  去hugo 下载Hugo-xxx-windows-64.bit.zip 解压 将安装包解压到d:\software\hugo\ 设置环境变量 将d:\software\hugo加入path 重启vscode终端 运行 Hugo version 命令查看版本并且验证安装是否成功  搭建博客   创建一个空文件夹study 进入目录
+cd study
+  进入hugo 复制step2~7的代码 如下解释：
+    step2: Hugo new site xxx. github. io-creator 建立新网站创建博客生成器 注意xxx是在GitHub的用户名并且是小写
+  step3: cd xxx. github. io-creator
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &lsquo;theme = &ldquo;ananke&rdquo;&rsquo; &raquo; config.toml 添加主题配置   step4: hugo new posts/my-first-post.md 创建并进行博客内容编写 （直接在已有的内容上往下编写 draft属性可改成false 即所以人可见 默认ture为仅自己可见 languageCode = &ldquo;zh-Hans&rdquo;）
     </div>
   </div>
 </div>

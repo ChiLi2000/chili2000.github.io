@@ -27,22 +27,40 @@
     
     
     <meta property="og:title" content="如何用hugo搭建个人博客" />
-<meta property="og:description" content="如何用hugo搭建个人博客 安装Hugo  去huge 下载Hugo-xxx-windows-64.bit.zip 解压 将安装包解压到d:\software\hugo\ 设置环境变量 将d:\software\hugo加入path 重启vscode终端 运行 Hugo version 命令查看版本并且验证安装是否成功  搭建博客  创建一个空文件夹study 进入目录 cd study 进入huge 复制step2~7的代码 如下解释：   step2: Hugo new site xxx. github. io-creator 建立新网站创建博客生成器 注意xxx是在GitHub的用户名并且是小写 step3: cd xxx. github. io-creator git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &lsquo;theme = &ldquo;ananke&rdquo;&rsquo; &raquo; config.toml 添加主题配置  step4: hugo new post/my-first-post.md 创建并进行博客内容编写 （直接在已有的内容上往下编写 draft属性可改成false 即所以人可见 默认ture为仅自己可见） step5: hugo server -D 启动Hugo服务器 访问出现的网址http://localhost:1313/即导航到博客站点。 step6: 自定义主题进行网站配置 在vscode中ctrl&#43;p搜索 config." />
+<meta property="og:description" content="如何用hugo搭建个人博客 安装Hugo  去hugo 下载Hugo-xxx-windows-64.bit.zip 解压 将安装包解压到d:\software\hugo\ 设置环境变量 将d:\software\hugo加入path 重启vscode终端 运行 Hugo version 命令查看版本并且验证安装是否成功  搭建博客   创建一个空文件夹study 进入目录
+cd study
+  进入hugo 复制step2~7的代码 如下解释：
+    step2: Hugo new site xxx. github. io-creator 建立新网站创建博客生成器 注意xxx是在GitHub的用户名并且是小写
+  step3: cd xxx. github. io-creator
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &lsquo;theme = &ldquo;ananke&rdquo;&rsquo; &raquo; config.toml 添加主题配置   step4: hugo new posts/my-first-post.md 创建并进行博客内容编写 （直接在已有的内容上往下编写 draft属性可改成false 即所以人可见 默认ture为仅自己可见 languageCode = &ldquo;zh-Hans&rdquo;）" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://chili2000.github.io/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" />
 <meta property="article:published_time" content="2020-06-22T20:17:19+08:00" />
 <meta property="article:modified_time" content="2020-06-22T20:17:19+08:00" />
 <meta itemprop="name" content="如何用hugo搭建个人博客">
-<meta itemprop="description" content="如何用hugo搭建个人博客 安装Hugo  去huge 下载Hugo-xxx-windows-64.bit.zip 解压 将安装包解压到d:\software\hugo\ 设置环境变量 将d:\software\hugo加入path 重启vscode终端 运行 Hugo version 命令查看版本并且验证安装是否成功  搭建博客  创建一个空文件夹study 进入目录 cd study 进入huge 复制step2~7的代码 如下解释：   step2: Hugo new site xxx. github. io-creator 建立新网站创建博客生成器 注意xxx是在GitHub的用户名并且是小写 step3: cd xxx. github. io-creator git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &lsquo;theme = &ldquo;ananke&rdquo;&rsquo; &raquo; config.toml 添加主题配置  step4: hugo new post/my-first-post.md 创建并进行博客内容编写 （直接在已有的内容上往下编写 draft属性可改成false 即所以人可见 默认ture为仅自己可见） step5: hugo server -D 启动Hugo服务器 访问出现的网址http://localhost:1313/即导航到博客站点。 step6: 自定义主题进行网站配置 在vscode中ctrl&#43;p搜索 config.">
+<meta itemprop="description" content="如何用hugo搭建个人博客 安装Hugo  去hugo 下载Hugo-xxx-windows-64.bit.zip 解压 将安装包解压到d:\software\hugo\ 设置环境变量 将d:\software\hugo加入path 重启vscode终端 运行 Hugo version 命令查看版本并且验证安装是否成功  搭建博客   创建一个空文件夹study 进入目录
+cd study
+  进入hugo 复制step2~7的代码 如下解释：
+    step2: Hugo new site xxx. github. io-creator 建立新网站创建博客生成器 注意xxx是在GitHub的用户名并且是小写
+  step3: cd xxx. github. io-creator
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &lsquo;theme = &ldquo;ananke&rdquo;&rsquo; &raquo; config.toml 添加主题配置   step4: hugo new posts/my-first-post.md 创建并进行博客内容编写 （直接在已有的内容上往下编写 draft属性可改成false 即所以人可见 默认ture为仅自己可见 languageCode = &ldquo;zh-Hans&rdquo;）">
 <meta itemprop="datePublished" content="2020-06-22T20:17:19&#43;08:00" />
 <meta itemprop="dateModified" content="2020-06-22T20:17:19&#43;08:00" />
-<meta itemprop="wordCount" content="78">
+<meta itemprop="wordCount" content="81">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="如何用hugo搭建个人博客"/>
-<meta name="twitter:description" content="如何用hugo搭建个人博客 安装Hugo  去huge 下载Hugo-xxx-windows-64.bit.zip 解压 将安装包解压到d:\software\hugo\ 设置环境变量 将d:\software\hugo加入path 重启vscode终端 运行 Hugo version 命令查看版本并且验证安装是否成功  搭建博客  创建一个空文件夹study 进入目录 cd study 进入huge 复制step2~7的代码 如下解释：   step2: Hugo new site xxx. github. io-creator 建立新网站创建博客生成器 注意xxx是在GitHub的用户名并且是小写 step3: cd xxx. github. io-creator git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &lsquo;theme = &ldquo;ananke&rdquo;&rsquo; &raquo; config.toml 添加主题配置  step4: hugo new post/my-first-post.md 创建并进行博客内容编写 （直接在已有的内容上往下编写 draft属性可改成false 即所以人可见 默认ture为仅自己可见） step5: hugo server -D 启动Hugo服务器 访问出现的网址http://localhost:1313/即导航到博客站点。 step6: 自定义主题进行网站配置 在vscode中ctrl&#43;p搜索 config."/>
+<meta name="twitter:description" content="如何用hugo搭建个人博客 安装Hugo  去hugo 下载Hugo-xxx-windows-64.bit.zip 解压 将安装包解压到d:\software\hugo\ 设置环境变量 将d:\software\hugo加入path 重启vscode终端 运行 Hugo version 命令查看版本并且验证安装是否成功  搭建博客   创建一个空文件夹study 进入目录
+cd study
+  进入hugo 复制step2~7的代码 如下解释：
+    step2: Hugo new site xxx. github. io-creator 建立新网站创建博客生成器 注意xxx是在GitHub的用户名并且是小写
+  step3: cd xxx. github. io-creator
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &lsquo;theme = &ldquo;ananke&rdquo;&rsquo; &raquo; config.toml 添加主题配置   step4: hugo new posts/my-first-post.md 创建并进行博客内容编写 （直接在已有的内容上往下编写 draft属性可改成false 即所以人可见 默认ture为仅自己可见 languageCode = &ldquo;zh-Hans&rdquo;）"/>
 
 	
   </head>
@@ -141,26 +159,47 @@
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="如何用hugo搭建个人博客">如何用hugo搭建个人博客</h2>
 <h3 id="安装hugo">安装Hugo</h3>
 <ol>
-<li>去<a href="https://github.com/gohugoio/hugo/releases">huge</a>  下载Hugo-xxx-windows-64.bit.zip</li>
+<li>去<a href="https://github.com/gohugoio/hugo/releases">hugo</a>  下载Hugo-xxx-windows-64.bit.zip</li>
 <li>解压 将安装包解压到d:\software\hugo\</li>
 <li>设置环境变量 将d:\software\hugo加入path</li>
 <li>重启vscode终端 运行 Hugo version 命令查看版本并且验证安装是否成功</li>
 </ol>
 <h3 id="搭建博客">搭建博客</h3>
 <ol>
-<li>创建一个空文件夹study 进入目录 cd study</li>
-<li>进入<a href="https://gohugo.io/getting-started/quick-start/">huge</a> 复制step2~7的代码 如下解释：</li>
+<li>
+<p>创建一个空文件夹study 进入目录</p>
+<p>cd study</p>
+</li>
+<li>
+<p>进入<a href="https://gohugo.io/getting-started/quick-start/">hugo</a> 复制step2~7的代码 如下解释：</p>
+</li>
 </ol>
 <ul>
-<li>step2: Hugo new site xxx. github. io-creator  建立新网站创建博客生成器 注意xxx是在GitHub的用户名并且是小写</li>
-<li>step3: cd xxx. github. io-creator
-git init
-git submodule add <a href="https://github.com/budparr/gohugo-theme-ananke.git">https://github.com/budparr/gohugo-theme-ananke.git</a> themes/ananke 
-echo &lsquo;theme = &ldquo;ananke&rdquo;&rsquo; &raquo; config.toml 添加主题配置   </li>
-<li>step4: hugo new post/my-first-post.md  创建并进行博客内容编写 （直接在已有的内容上往下编写 draft属性可改成false 即所以人可见 默认ture为仅自己可见）</li>
-<li>step5: hugo server -D 启动Hugo服务器 访问出现的网址http://localhost:1313/即导航到博客站点。</li>
-<li>step6: 自定义主题进行网站配置 在vscode中ctrl+p搜索 config. toml文件（注意不是显示默认的那一个）对其内容进行修改：zh-Hans baseURL地址改为Github Pages显示的网址</li>
-<li>step7: 新建端口（注意不能把第一个端口关闭）执行 hugo  建立创建了一个public目录即博客站点</li>
+<li>
+<p>step2: Hugo new site xxx. github. io-creator </p>
+<p>建立新网站创建博客生成器 注意xxx是在GitHub的用户名并且是小写</p>
+</li>
+<li>
+<p>step3: cd xxx. github. io-creator</p>
+<p>git init</p>
+<p>git submodule add <a href="https://github.com/budparr/gohugo-theme-ananke.git">https://github.com/budparr/gohugo-theme-ananke.git</a> themes/ananke </p>
+<p>echo &lsquo;theme = &ldquo;ananke&rdquo;&rsquo; &raquo; config.toml
+添加主题配置   </p>
+</li>
+<li>
+<p>step4: hugo new posts/my-first-post.md </p>
+<p>创建并进行博客内容编写 （直接在已有的内容上往下编写 draft属性可改成false 即所以人可见 默认ture为仅自己可见 languageCode = &ldquo;zh-Hans&rdquo;）</p>
+</li>
+<li>
+<p>step5: hugo server -D</p>
+<p>启动Hugo服务器 访问出现的网址http://localhost:1313/即导航到博客站点。</p>
+</li>
+<li>
+<p>step6: 自定义主题进行网站配置 在vscode中ctrl+p搜索 config. toml文件（注意不是显示默认的那一个）对其内容进行修改：zh-Hans baseURL地址改为Github Pages显示的网址</p>
+</li>
+<li>
+<p>step7: 新建端口（注意不能把第一个端口关闭）执行 hugo  建立创建了一个public目录即博客站点</p>
+</li>
 </ul>
 <p>使用hugo server 就可以预览网站啦</p>
 <ul class="pa0">
