@@ -1,0 +1,24 @@
+---
+title: "如何使用GitHub Pages预览 HTML"
+date: 2020-06-22T20:44:14+08:00
+draft: false
+---
+
+# 如何使用GitHub Pages预览 HTML
+在使用Hugo搭建博客的基础上进行以下操作：
+
+1.创建GitHub rope
+仓库名为xxx. github. io  其它别动直接创建 注意xxx是GitHub 的用户名
+
+2.创建本地仓库
+新建 . gitignore文件内容为/public/
+切换到public目录
+git init 
+git add. 
+git commit -v 第一次部署
+
+3.关联远程仓库
+git remote add origin ………（注意git@开头）
+git push -u origin master
+
+4. 打开Github pages 
